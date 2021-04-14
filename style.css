@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+.header-content{
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.h-logo{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    
+}
+.navbar{
+    display: flex;
+   width: 50%;
+   justify-content: space-evenly;
+   padding-right: 10%;
+}
