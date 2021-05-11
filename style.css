@@ -55,7 +55,7 @@ body{
 /*----------------Title section----------------*/
 .Title{
     position: relative;
-    background-image: url(/media/Title-bg.png);
+    background-image: url("media/Title-bg.png");
     background-size: cover;
     background-color: green;
     z-index: -1;
@@ -74,7 +74,6 @@ body{
     padding-top: 3%;
     text-align: center;
     color: white;
-    z-index: 1;
     padding-bottom: 10%;
 }
 
