@@ -74,7 +74,7 @@ body{
     padding-top: 3%;
     text-align: center;
     color: white;
-    padding-bottom: 10%;
+    padding-bottom: 8%;
 }
 
 .Title-title{
@@ -100,4 +100,46 @@ body{
     color: white;
     border: none;
     border-radius: 30px;
+}
+
+/*----------------SERVICES SECTION----------------*/
+.Services-content{
+    padding: 4% 0% 7% 0%;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+.Services-header{
+
+    text-align: center;
+}
+.Services-footer{
+    text-align: center;
+    padding-top: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+.Services-Title{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 300%;
+    margin-bottom: auto;
+}
+.Services-sub{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 105%;
+    color: gray;
+}
+.Services-column1{
+    
+}
+.Services-column1-Title,.Services-column2-Title,.Services-column3-Title{
+    font-size: 110%;
+    font-weight: bold;
+    margin-top: 6%;
+    
+}
+.Services-column1-sub,.Services-column2-sub,.Services-column3-sub{
+    font-size: 90%;
+    margin: 0 23% 0 23%;
+
 }
