@@ -58,7 +58,7 @@ body{
     background-image: url("media/Title-bg.png");
     background-size: cover;
     background-color: green;
-    z-index: -1;
+    z-index: 0;
 }
 .Title-bg-layer{
     position: absolute;
@@ -105,11 +105,9 @@ body{
 /*----------------SERVICES SECTION----------------*/
 .Services-content{
     padding: 4% 0% 7% 0%;
-    
     font-family: 'Montserrat', sans-serif;
 }
 .Services-header{
-
     text-align: center;
 }
 .Services-footer{
@@ -120,26 +118,96 @@ body{
 }
 .Services-Title{
     width: 100%;
-    font-family: 'Montserrat', sans-serif;
     font-size: 300%;
     margin-bottom: auto;
 }
 .Services-sub{
-    font-family: 'Montserrat', sans-serif;
     font-size: 105%;
     color: gray;
 }
-.Services-column1{
-    
-}
+
 .Services-column1-Title,.Services-column2-Title,.Services-column3-Title{
     font-size: 110%;
     font-weight: bold;
     margin-top: 6%;
-    
 }
 .Services-column1-sub,.Services-column2-sub,.Services-column3-sub{
     font-size: 90%;
     margin: 0 23% 0 23%;
 
+}
+
+/*---------------------RELAX SECTION --------------------- */
+
+.Relax-content{
+padding: 5% 0 5% 0;
+display: flex;
+
+}
+.gear{
+    
+    background-color: rgb(233, 233, 233);
+    width: 30%;
+    padding-top: 5%;
+}
+.gear-img{
+    padding-left: 65%;
+    z-index: -2;
+    
+}
+.Relax-main{
+    width: 70%;
+    background-image: url(media/Relax-bg.png);
+    background-size: cover;
+     font-family: 'Montserrat', sans-serif;
+    position: relative;
+    z-index: 0;
+    padding: 5% 0 5% 6%;
+    
+}
+.Relax-main-layer{
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+.Relax-buttonbox{
+    padding-top: 4%;
+}
+.Relax-button{
+    padding: 1.5% 2.5% 1.5% 2.5%;
+    background-color: rgb(124, 197, 118);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+.Relax-main-title{
+    font-size: 250%;
+    color: white;
+}
+.Relax-main-sub{
+    color: lightgray;
+    padding-right: 60%;
+}
+.Relax-check1,.Relax-check2,.Relax-check3{
+    color: lightgray;
+}
+.checkbox{
+    padding: 0.5% 0 0.5% 0;
+    display: flex;
+}
+.checkbox > span{
+    padding-left: 1%;
+}
+.check1,.check2,.check3{
+    
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 4px 2px 4px 2px;
 }
