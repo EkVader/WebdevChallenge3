@@ -218,8 +218,57 @@ display: flex;
 .Relax-check3 > span{
     padding-left: 1%;
 }
-.check1,.check2,.check3{
+
+/*  PROJECT */
+.Project{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Project-header{
+    text-align: center;
     
-   
-    
+}
+.Project-header-title{
+    font-size: 250%;
+    font-weight: bold;
+}
+.Project-header-sub{
+    color: gray;
+}
+
+.center-content{
+    padding:5% 0% 0% 20%
+}
+.center-header-p{
+    font-size: 140%;
+    font-weight: bold;
+}
+.center-header-sub{
+    padding: 0% 70% 0% 0%;
+}
+.project-icon{
+    position: relative;
+}
+.project-icon-imgbox{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+.laptop-imgbox{
+    top: 25%;
+    left: 22%;
+}
+.locked-imgbox{
+    left: 30%;
+}
+.Project-icon1,.Project-icon2,.Project-icon3{
+   display: flex;
+}
+.Project-icon-description{
+    padding-left: 1%;
+    margin: 0%;
+}
+.Project-icon-title{
+    font-weight: bold;
+    font-size: 110%;
 }
