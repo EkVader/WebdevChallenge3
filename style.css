@@ -188,7 +188,7 @@ display: flex;
     border-radius: 30px;
 }
 .Relax-main-title{
-    font-size: 250%;
+    font-size: 320%;
     color: white;
 }
 .Relax-main-sub{
@@ -224,16 +224,31 @@ display: flex;
     font-family: 'Montserrat', sans-serif;
 }
 
+.block1{
+    float: left;
+    padding: 0 0 0 5%;
+    width: 45%;
+}
+.block2{
+    width: 45%;
+    float: right;
+    padding: 2% 0 0 0;
+}
+
 .Project-header{
     text-align: center;
+    padding-left: 5%;
+    clear: both;
+    
     
 }
 .Project-header-title{
-    font-size: 250%;
+    font-size: 300%;
     font-weight: bold;
 }
 .Project-header-sub{
     color: gray;
+    font-size: 130%;
 }
 
 .center-content{
@@ -244,7 +259,8 @@ display: flex;
     font-weight: bold;
 }
 .center-header-sub{
-    padding: 0% 70% 0% 0%;
+    padding: 0% 30% 0% 0%;
+    color: gray;
 }
 .project-icon{
     position: relative;
@@ -268,7 +284,18 @@ display: flex;
     padding-left: 1%;
     margin: 0%;
 }
+.Project-icon-sub{
+    color: gray;
+}
 .Project-icon-title{
     font-weight: bold;
     font-size: 110%;
+}
+.center-footer{
+    padding:1% 30% 0 0;
+    color: gray;
+}
+.center-footer p{
+    color: green;
+    font-weight: bold;
 }
